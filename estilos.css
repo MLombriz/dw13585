@@ -8,6 +8,17 @@ h2{
     border: 3px solid black;
     background-color: rgba(0, 0, 0, 0.233);
 }
+
+h3{
+    color: red;
+    padding: 20px;
+    border: 3px solid black;
+    background-color: rgba(0, 0, 0, 0.233);
+}
+section{
+    margin: 50px 0;
+    
+}
 section article{
     background-color: crimson;
     width: 50%;
