@@ -1,0 +1,52 @@
+section{
+    padding: 30px;
+    margin-left: 10px;
+}
+
+section article{
+    background-color: crimson;
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+}
+
+section article h2{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: slategray;
+}
+
+section article p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+/*
+En el caso que se repitan valores para una misma etiqueta, se aplica LA ULTIMA
+*/
+p{
+    color: crimson !important;
+}
+/*Si el CSS tiene el !important, ROMPE TODA JERARQUIA y es mas importante que CSS INLINE, ID, etc.*/
+
+p{
+    color: green;
+}
+/** Creamos una clase para la imagen
+Las clases se pueden aplicar a en multiples elementos
+**/
+.bordesRedondeados{
+    border-radius: 15px;
+}
+
+.imagen{
+    width: 300px;
+
+}
+
+/* IDs - se identifican con "#" y luego es lo mismo que el resto 
+A diferencia de las clases, los IDs NO SE PUEDEN REPETIR. Solo son validos
+para un unico ID
+*/
+#noticias {
+
+}
